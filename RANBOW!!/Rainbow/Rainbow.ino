@@ -1,5 +1,5 @@
 #include "FastLED.h"
-#define NUM_LEDS 69
+#define NUM_LEDS 68
 CRGB leds[NUM_LEDS];
 void setup() { FastLED.addLeds<WS2801, RGB>(leds, NUM_LEDS); }
 void loop() {
@@ -71,6 +71,6 @@ void loop() {
     leds[65] = CRGB::Red; FastLED.show(); delay(20); 
     leds[66] = CRGB::Orange; FastLED.show(); delay(20);
     leds[67] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[68] = CRGB::Green; FastLED.show(); delay(20);
+
 
 }
