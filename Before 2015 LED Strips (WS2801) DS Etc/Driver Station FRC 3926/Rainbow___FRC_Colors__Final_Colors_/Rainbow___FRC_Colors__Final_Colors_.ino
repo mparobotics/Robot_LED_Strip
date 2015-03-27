@@ -1,7 +1,7 @@
 #include "FastLED.h"
 
 // How many leds in your strip?
-#define NUM_LEDS 69
+#define NUM_LEDS 30
 
 // Define the array of leds
 CRGB leds[NUM_LEDS];
@@ -44,44 +44,6 @@ void loop() {
     leds[28] = CRGB::Blue; FastLED.show(); delay(20);
     leds[29] = CRGB::Purple; FastLED.show(); delay(20);
     leds[30] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[31] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[32] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[33] = CRGB::Green; FastLED.show(); delay(20);
-    leds[34] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[35] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[36] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[37] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[38] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[39] = CRGB::Green; FastLED.show(); delay(20);
-    leds[40] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[41] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[42] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[43] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[44] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[45] = CRGB::Green; FastLED.show(); delay(20);
-    leds[46] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[47] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[48] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[49] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[50] = CRGB::Green; FastLED.show(); delay(20);
-    leds[51] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[52] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[53] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[54] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[55] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[56] = CRGB::Green; FastLED.show(); delay(20);
-    leds[57] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[58] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[59] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[60] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[61] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[62] = CRGB::Green; FastLED.show(); delay(20);
-    leds[63] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[64] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[65] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[66] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[67] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[68] = CRGB::Green; FastLED.show(); delay(10);
     delay(30);
 
 	// Now go in the other direction.  
@@ -146,44 +108,6 @@ void rainbow()
     leds[28] = CRGB::Blue; FastLED.show(); delay(20);
     leds[29] = CRGB::Purple; FastLED.show(); delay(20);
     leds[30] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[31] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[32] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[33] = CRGB::Green; FastLED.show(); delay(20);
-    leds[34] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[35] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[36] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[37] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[38] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[39] = CRGB::Green; FastLED.show(); delay(20);
-    leds[40] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[41] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[42] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[43] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[44] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[45] = CRGB::Green; FastLED.show(); delay(20);
-    leds[46] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[47] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[48] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[49] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[50] = CRGB::Green; FastLED.show(); delay(20);
-    leds[51] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[52] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[53] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[54] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[55] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[56] = CRGB::Green; FastLED.show(); delay(20);
-    leds[57] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[58] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[59] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[60] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[61] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[62] = CRGB::Green; FastLED.show(); delay(20);
-    leds[63] = CRGB::Blue; FastLED.show(); delay(20);
-    leds[64] = CRGB::Purple; FastLED.show(); delay(20);
-    leds[65] = CRGB::Red; FastLED.show(); delay(20); 
-    leds[66] = CRGB::Orange; FastLED.show(); delay(20);
-    leds[67] = CRGB::Yellow; FastLED.show(); delay(20);
-    leds[68] = CRGB::Green; FastLED.show(); delay(10);
     delay(30);
 
 	// Now go in the other direction.  
