@@ -33,7 +33,7 @@ void colorWipe(uint32_t c, uint8_t wait) {
       strip.setPixelColor(i, c);
       strip.show();
       delay(wait);
-  }
+  } 
 }
 
 void rainbow(uint8_t wait) {
